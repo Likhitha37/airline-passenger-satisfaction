@@ -68,6 +68,7 @@ dissatisfaction rate — proving that dissatisfaction rate alone is a misleading
 
 ## Project Structure
 
+```
 airline-passenger-satisfaction/
 ├── data/
 │   ├── cleaned_data.csv          # Cleaned training dataset
@@ -83,25 +84,29 @@ airline-passenger-satisfaction/
 ├── dashboard/
 │   └── satisfaction_dashboard.pbix  # Power BI dashboard (3 pages)
 └── README.md
+```
 
 ## How to Run
 
 ### Prerequisites
+```
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
+```
 ### Steps
 1. Clone the repository:
+ ```
 git clone https://github.com/Likhitha37/airline-passenger-satisfaction.git
-2. Download the dataset from Kaggle:
+```
+3. Download the dataset from Kaggle:
    - [Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
    - Place `train.csv` and `test.csv` in the `data/` folder
 
-3. Run notebooks in order:
+4. Run notebooks in order:
    - `01_eda.ipynb` — EDA and financial analysis
    - `02_sql_analysis.ipynb` — SQL queries
    - `03_ml_model.ipynb` — ML model
 
-4. Open `dashboard/satisfaction_dashboard.pbix` in Power BI Desktop
+5. Open `dashboard/satisfaction_dashboard.pbix` in Power BI Desktop
 
 ### Data Source
 Kaggle — [Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction) by TJ Klein
